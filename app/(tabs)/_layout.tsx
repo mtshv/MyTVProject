@@ -32,10 +32,8 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        tabBarStyle: {
-          height: textStyles.title.lineHeight * 2,
-        },
-        tabBarPosition: 'top',
+        tabBarStyle: {},
+        tabBarPosition: 'left',
         tabBarIconStyle: {
           height: textStyles.title.lineHeight,
           width: 30 * scale,
