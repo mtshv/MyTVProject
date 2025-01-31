@@ -7,6 +7,13 @@ export default function TabLayout() {
   return (
     <Tabs sidebarAdaptable>
       <Tabs.Screen
+        name="teams"
+        options={{
+          title: "Teams",
+          tabBarIcon: () => ({ sfSymbol: "person.3.fill" }),
+        }}
+      />
+      <Tabs.Screen
         name="index"
         options={{
           title: "Tabs Welcome",
